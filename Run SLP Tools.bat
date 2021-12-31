@@ -1,0 +1,1 @@
+cmd /k poetry run python ps.py config.json

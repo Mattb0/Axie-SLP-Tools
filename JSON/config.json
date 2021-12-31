@@ -1,0 +1,21 @@
+{
+	"MainPayoutAddress": "ronin:0000000000",
+	"PayoutPercentageDefault": 0.5,
+	"PayoutPercentageHigh": 0.6,
+	"LowPerformanceValue": 1200,
+    	"HighPerformanceValue": 2000,
+    	"Scholars":[
+        {
+		  "Name": "testscholar1",
+		  "PrivateKey": "0x",
+		  "AccountAddress": "ronin:000000",
+		  "ScholarPayoutAddress": "ronin:000000"
+		},
+		{
+		  "Name": "testscholar2",
+		  "PrivateKey": "0x",
+		  "AccountAddress": "ronin:000000",
+		  "ScholarPayoutAddress": "ronin:000000"
+		}
+    ]
+}
