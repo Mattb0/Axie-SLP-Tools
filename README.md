@@ -8,7 +8,7 @@ This software contains a 1% fee for transactions. As this is a personal project,
 ## Features
 1. Automatically claim all SLP. The program will cycle through every account and attempt to claim SLP, if available.
 
-2. Execute SLP transactions which splits the SLP between the manager's and scholar's ronin addresses. Payout percentage can be easily changed and can be set to reward scholars who are overperforming. Software will also verify each transaction, if a transaction takes too long to verify, it will be marked as failed and skipped.
+2. Automated payouts for scholars. Execute SLP transactions which splits the SLP between the manager's and scholar's ronin addresses. Payout percentage can be easily changed and can be set to reward scholars who are overperforming. Software will also verify each transaction, if a transaction takes too long to verify, it will be marked as failed and skipped.
 
 3. Comprehensive logging system, which are date-stamped and organized into the appropriate folders found within /logs/
 
