@@ -55,15 +55,3 @@ This software requires several dependencies before it can be installed.
 3. [Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com)
 4. poetry
 
-## Running the program
-**Run SLP Tools**.bat found within the root folder. This batch file will automatically run the default config.json. Multiple instances of this batch file can be created to support multiple JSON files, made for managers with very large number of accounts. You can also run multiple JSON files at once to save time.
-
-
-# Disclaimer
-This software contains a 1% fee for transactions. As this is a personal project, this small fee helps me maintain and improve this automation software.
-
-
-## Discord
-If you have any questions or require assistance with the installation process, please reach out to me through [Discord](https://discord.gg/HvDA4aE5FK).
-
-
