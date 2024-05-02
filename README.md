@@ -1,55 +1,54 @@
 # Axie-SLP-Tool
-This software has been created to optimize solutions and to improve efficiency of Axie Infinity Scholar Managers by automating critical tasks.
+This tool is aimed at Axie Infinity Scholar Managers looking to streamline their workflow and optimize SLP management
 
 The purpose of this tool is to speed up the process of SLP claims, transactions, and performance tracking of scholars within the NFT-Based online video game Axie Infinity.
 
 ## Features
-1. Automatically claim all SLP. The program will cycle through every account and attempt to claim SLP, if available.
+1. **Automated SLP Claiming:** Automatically claim all SLP. The program will cycle through every account and attempt to claim SLP if available.
 
-2. Automated payouts for scholars. Execute SLP transactions which splits the SLP between the manager's and scholar's ronin addresses. Payout percentage can be easily changed and can be set to reward scholars who are overperforming. Software will also verify each transaction, if a transaction takes too long to verify, it will be marked as failed and skipped.
+2. **Automated Payouts:** Execute SLP transactions which split the SLP between the manager's and scholar's Ronin addresses. Payout percentage can be easily changed and set to reward scholars who are overperforming. The software will also verify each transaction; if a transaction takes too long to verify, it will be marked as failed and skipped.
 
-3. Comprehensive logging system, which are date-stamped and organized into the appropriate folders found within /logs/
+3. **Comprehensive Logging System:** Includes a date-stamped logging system organized into appropriate folders within `/logs/`.
 
-4. Performance logger capable of automatically logging scholars who considered to be under-performing based on the value defined in 'LowPerformanceValue'. This feature can be used to easily identify scholars who may require additional training.
+4. **Performance Logger:** Automatically logs scholars considered to be underperforming based on the value defined in 'LowPerformanceValue'. This feature can be used to easily identify scholars who may require additional training.
 
+## Setting up the Necessary Configuration
+In order to run this program, the `.JSON` file located in `root/JSON` folder must be properly set up and populated with the appropriate accounts.
 
-## Setting up the neccesary configuration:
-In order to run this program, the .JSON file located in root/JSON folder must be properly setup, and populated with the appropriate accounts.
-
-
- **MainPayoutAddress** 
- >Your/manager's ronin address where portion of the SLP will be sent to
-
-
-**PayoutPercentageHigh**
->High percantage value allows you to set a custom percentage scholars who are performing well. If you do not need separate percentages for high performers, change this value to be the same as PayoutPercentageDefault and all of your scholars will receive the same SLP.
+- **MainPayoutAddress:** Your/manager's Ronin address where a portion of the SLP will be sent.
   
-  
-**LowPerformanceValue**
->Low performance value does not directly affect the payout value, however it is used to log accounts who are considered to be underperforming by your standards. 1200 indicates to the program that any scholar who has made less than or equal to 1200 SLP will be logged within logs/account.json/performance_reports. This does not change the payout value.
+- **PayoutPercentageHigh:** Allows setting a custom percentage for scholars who are performing well. If not needed, change this value to be the same as PayoutPercentageDefault.
 
-**HighPerformanceValue**
->High performance value is used determine the payout percentages. 
+- **LowPerformanceValue:** Used to log accounts considered to be underperforming. Does not affect payout value.
+
+- **HighPerformanceValue:** Used to determine the payout percentages.
 
 Example:
 
-	HighPerformanceValue = 2000
-	PayoutPercentageDefault 0.5 
-	PayoutPercentageHigh = 0.6
-	
-	result:
-	Any scholar below 2000 SLP will receive 0.5 (50%)
-	Any scholar with 2000 SLP or above will receive 0.6 (60%)
-
+```json
+{
+  "HighPerformanceValue": 2000,
+  "PayoutPercentageDefault": 0.5,
+  "PayoutPercentageHigh": 0.6
+}
+```
 
 ## Dependencies ##
-This software requires several dependencies before it can be installed.
+This software requires several dependencies before it can be installed. This installation guide is for *Windows operating systems only*.
+
 *This installation guide is for Windows operating systems only*
 
 **Install the following dependencies in the following order**
 
-1. [python 3.8 or later version](https://www.python.org/downloads/release/python-380/)
+## Dependencies
+
+This software requires several dependencies before it can be installed. This installation guide is for *Windows operating systems only*.
+
+**Install the following dependencies in the following order:**
+
+1. [Python 3.8 or later version](https://www.python.org/downloads/release/python-380/)
 2. pip (package-management system)
 3. [Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com)
-4. poetry
+4. Poetry
 
+After installing the dependencies, clone the repository and follow the setup instructions provided in the repository to configure and run the software.
