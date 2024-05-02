@@ -44,9 +44,7 @@ This software requires several dependencies before it can be installed. This ins
 3. [Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com)
 4. Poetry
 
-After installing the dependencies, clone the repository and follow the setup instructions provided in the repository to configure and run the software.
-
-# API Documentation For Developers
+# API Documentation for Developers
 
 ## Functions
 
