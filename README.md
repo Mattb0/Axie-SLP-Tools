@@ -33,13 +33,6 @@ Example:
 }
 ```
 
-## Dependencies ##
-This software requires several dependencies before it can be installed. This installation guide is for *Windows operating systems only*.
-
-*This installation guide is for Windows operating systems only*
-
-**Install the following dependencies in the following order**
-
 ## Dependencies
 
 This software requires several dependencies before it can be installed. This installation guide is for *Windows operating systems only*.
