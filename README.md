@@ -1,11 +1,11 @@
 # Axie-SLP-Tool
-This tool is aimed at Axie Infinity Scholar Managers looking to streamline their workflow and optimize SLP management
-The purpose of this tool is to speed up the process of SLP claims, transactions, and performance tracking of scholars within the NFT-Based online video game Axie Infinity.
-
 1. [Features](#section-a)
 2. [Configuration](#section-b)
 3. [API Documentation for Developers](#section-c)
 4. [Dependencies](#section-d)
+
+This tool is aimed at Axie Infinity Scholar Managers looking to streamline their workflow and optimize SLP management
+The purpose of this tool is to speed up the process of SLP claims, transactions, and performance tracking of scholars within the NFT-Based online video game Axie Infinity.
 
 ## Features <a name="section-a"></a>
 1. **Automated SLP Claiming:** Automatically claim all SLP. The program will cycle through every account and attempt to claim SLP if available.
