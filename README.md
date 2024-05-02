@@ -47,7 +47,7 @@ This software requires several dependencies before it can be installed. This ins
 **Install the following dependencies in the following order:**
 
 1. [Python 3.8 or later version](https://www.python.org/downloads/release/python-380/)
-2. pip (package-management system)
+2. [pip/package-management system](https://pypi.org/project/pip/)
 3. [Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com)
 4. Poetry
 
