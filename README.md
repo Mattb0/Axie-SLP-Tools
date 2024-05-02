@@ -45,3 +45,52 @@ This software requires several dependencies before it can be installed. This ins
 4. Poetry
 
 After installing the dependencies, clone the repository and follow the setup instructions provided in the repository to configure and run the software.
+
+# API Documentation For Developers
+
+## Functions
+
+### get_claimed_slp(address)
+
+- **Description**: Retrieves the claimed SLP (Smooth Love Potion) balance for a given Ethereum address.
+- **Parameters**:
+  - `address` (str): The Ethereum address for which to retrieve the claimed SLP balance.
+- **Returns**:
+  - `claimed_slp` (int): The amount of claimed SLP for the specified address.
+  
+### get_unclaimed_slp(address)
+
+- **Description**: Retrieves the unclaimed SLP (Smooth Love Potion) balance for a given Ethereum address.
+- **Parameters**:
+  - `address` (str): The Ethereum address for which to retrieve the unclaimed SLP balance.
+- **Returns**:
+  - `unclaimed_slp` (int): The amount of unclaimed SLP for the specified address.
+
+### execute_slp_claim(claim, nonces)
+
+- **Description**: Executes the claiming of SLP (Smooth Love Potion) tokens for a specified address.
+- **Parameters**:
+  - `claim` (object): An object containing address, private key, and claim state information.
+  - `nonces` (dict): A dictionary containing nonces for each address.
+- **Returns**:
+  - `txn_hash` (str): The transaction hash of the executed SLP claim transaction.
+
+### transfer_slp(transaction, private_key, nonce)
+
+- **Description**: Transfers SLP (Smooth Love Potion) tokens to a specified address.
+- **Parameters**:
+  - `transaction` (object): An object containing transaction details such as recipient address and amount.
+  - `private_key` (str): The private key of the sender's Ethereum address.
+  - `nonce` (int): The nonce value for the transaction.
+- **Returns**:
+  - `txn_hash` (str): The transaction hash of the executed SLP transfer transaction.
+
+### sign_message(message, private_key)
+
+- **Description**: Signs a message using the provided private key.
+- **Parameters**:
+  - `message` (str): The message to be signed.
+  - `private_key` (str): The private key used for signing the message.
+- **Returns**:
+  - `signature` (str): The signature of the message signed with the private key.
+
