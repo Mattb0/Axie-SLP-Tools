@@ -98,7 +98,7 @@ After installing the dependencies, clone the repository and follow the setup ins
 
 - **Description**: Retrieves a JWT access token using the provided Ethereum address and private key for authentication.
 - **Parameters**:
-  - `address` (str): The Etereum address used for authentication.
+  - `address` (str): The Ethereum address used for authentication.
   - `private_key` (str): The private key corresponding to the Ethereum address.
 - **Returns**:
   - `access_token` (str): The JWT access token generated for authentication.
