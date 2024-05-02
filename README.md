@@ -3,8 +3,6 @@ This software has been created to optimize solutions and to improve efficiency o
 
 The purpose of this tool is to speed up the process of SLP claims, transactions, and performance tracking of scholars within the NFT-Based online video game Axie Infinity.
 
-This software contains a 1% fee for transactions. As this is a personal project, this small fee helps me maintain and improve this automation software.
-
 ## Features
 1. Automatically claim all SLP. The program will cycle through every account and attempt to claim SLP, if available.
 
