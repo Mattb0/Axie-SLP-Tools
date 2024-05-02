@@ -94,3 +94,12 @@ After installing the dependencies, clone the repository and follow the setup ins
 - **Returns**:
   - `signature` (str): The signature of the message signed with the private key.
 
+### get_jwt_access_token(address, private_key)
+
+- **Description**: Retrieves a JWT access token using the provided Ethereum address and private key for authentication.
+- **Parameters**:
+  - `address` (str): The Etereum address used for authentication.
+  - `private_key` (str): The private key corresponding to the Ethereum address.
+- **Returns**:
+  - `access_token` (str): The JWT access token generated for authentication.
+
