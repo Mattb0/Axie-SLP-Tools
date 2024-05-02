@@ -4,8 +4,8 @@ The purpose of this tool is to speed up the process of SLP claims, transactions,
 
 1. [Features](#section-a)
 2. [Configuration](#section-b)
-3. [Dependencies](#section-c)
-3. [API Documentation for Developers](#section-d)
+3. [API Documentation for Developers](#section-c)
+4. [Dependencies](#section-d)
 
 ## Features <a name="section-a"></a>
 1. **Automated SLP Claiming:** Automatically claim all SLP. The program will cycle through every account and attempt to claim SLP if available.
@@ -37,18 +37,7 @@ Example:
 }
 ```
 
-## Dependencies<a name="section-c"></a>
-
-This software requires several dependencies before it can be installed. This installation guide is for *Windows operating systems only*.
-
-**Install the following dependencies in the following order:**
-
-1. [Python 3.8 or later version](https://www.python.org/downloads/release/python-380/)
-2. [pip/package-management system](https://pypi.org/project/pip/)
-3. [Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com)
-4. Poetry
-
-## API Documentation for Developers<a name="section-d"></a>
+## API Documentation for Developers<a name="section-c"></a>
 
 ### Functions
 
@@ -105,3 +94,13 @@ This software requires several dependencies before it can be installed. This ins
 - **Returns**:
   - `access_token` (str): The JWT access token generated for authentication.
 
+## Dependencies<a name="section-d"></a>
+
+This software requires several dependencies before it can be installed. This installation guide is for *Windows operating systems only*.
+
+**Install the following dependencies in the following order:**
+
+1. [Python 3.8 or later version](https://www.python.org/downloads/release/python-380/)
+2. [pip/package-management system](https://pypi.org/project/pip/)
+3. [Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com)
+4. Poetry
